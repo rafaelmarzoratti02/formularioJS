@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
 :root {
-  --primary-color: rgb(17, 86, 102);
-  --primary-color-darker: rgb(9, 48, 56);
+  --primary-color: rgba(228, 171, 36, 0.734);
+  --primary-color-darker: rgb(193, 155, 40);
 }
 
 * {
@@ -30,6 +30,7 @@ form input, form label, form button {
   display: block;
   width: 100%;
   margin-bottom: 10px;
+  border-radius: 10px;
 }
 
 form input {
